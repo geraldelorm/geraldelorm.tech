@@ -212,8 +212,8 @@ footer > span > img {
 
 @media only screen and (max-width: 450px) {
     .main-img > img {
-        width: 185px;
-        height: 185px;
+        width: 200px;
+        height: 200px;
         margin: 20px;
     }
 
