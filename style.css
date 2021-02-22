@@ -7,7 +7,7 @@
     padding: 0;
     
 }
-body {
+html, body {
     margin: auto;
     max-width: 1500px;
     background-color: rgb(255, 255, 255);
@@ -15,10 +15,9 @@ body {
 
 }
 .container {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
 }
 
 header {
@@ -34,6 +33,7 @@ header {
 }
 
 .nav-img  h3{
+    font-size: 1.5rem;
     padding: 25px 10px;
 }
 .nav-img  h3 span{
@@ -44,8 +44,8 @@ color: rgb(0, 119, 255);
     }
 
 .nav-img img {
-    width: 60px;
-    height: 65px;
+    width: 50px;
+    height: 55px;
 }
 
 .nav-links {
@@ -76,7 +76,7 @@ color: rgb(0, 119, 255);
 @media only screen and (max-width: 935px) {
     .nav-img  h3{
         padding: 20px 10px;
-        font-size: 15px;
+        font-size: 1.2rem;
     }
     .nav-img img {
         width: 50px;
@@ -85,17 +85,16 @@ color: rgb(0, 119, 255);
 
     .nav-links a {
         text-decoration: none;
-        color: black;
+        color: rgb(0, 0, 0);
         margin-left: 10px;
         font-size: 15px;
     }
     
     .nav-links .active{
         text-decoration: none;
-        color:white;
+        color:rgb(255, 255, 255);
         margin-left: 10px;
-        background-color: none !important;
-        padding: 5px 15px;
+        padding: 10px 15px;
     }
     
 }
@@ -109,14 +108,14 @@ color: rgb(0, 119, 255);
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
 
         height: 10px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
     }
     .nav-links > a {
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-size: 20px;
         flex: 1;
     }
@@ -142,7 +141,7 @@ color: rgb(0, 119, 255);
     }
     .nav-links a {
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         margin: 5px;
         font-size: 18px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -156,17 +155,25 @@ color: rgb(0, 119, 255);
     }
     
 }
-.main{
-    margin: 20px;
-
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.main-img img{
+.main-img > img {
+    margin: 50px;
     width: 300px;
     height: 300px;
+    order: 1;
     border-radius: 50%;
-
+}
+.main-text {
+    max-width: 500px;
+    order: 2;
 }
 
 footer {
