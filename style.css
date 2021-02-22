@@ -10,7 +10,7 @@
 html, body {
     margin: auto;
     max-width: 1500px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 250, 250);
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -76,88 +76,6 @@ color: rgb(0, 119, 255);
 }
 
 
-@media only screen and (max-width: 935px) {
-    .nav-img  h3{
-        padding: 20px 10px;
-        font-size: 1.2rem;
-    }
-    .nav-img img {
-        width: 50px;
-        height: 55px;
-    }
-
-    .nav-links a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        margin-left: 10px;
-        font-size: 15px;
-    }
-    
-    .nav-links .active{
-        text-decoration: none;
-        color:rgb(255, 255, 255);
-        margin-left: 10px;
-        padding: 10px 15px;
-    }
-    
-}
-@media (max-width: 740px) {
-    .nav-links {
-        position: fixed;
-        bottom: 0%;
-        left: 0%;
-        right: 0%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(255, 255, 255);
-
-        height: 10px;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-    }
-    .nav-links > a {
-        text-align: center;
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        flex: 1;
-    }
-
-    .main-img > img {
-        width: 10px;
-    }
-    footer {
-        display: none;
-    }
-    
-}
-
-@media only screen and (max-width: 400px) {
-    .nav-img  h3{
-        padding: 10px 5px;
-        font-size: 15px;
-    }
-    .nav-img img {
-        width: 30px;
-        height: 35px;
-    }
-    .nav-links a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        margin: 5px;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-    }
-    
-    .nav-links .active{
-        text-decoration: none;
-        color:rgb(255, 255, 255);
-        margin-left: 10px;
-        background-color: rgb(0, 119, 255);
-    }
-
-
-    
-}
 main {
     display: flex;
     flex-wrap: wrap;
@@ -165,7 +83,11 @@ main {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-bottom: 100px;
+    padding: 1rem;
+    -moz-box-shadow: 0 0 3px rgb(133, 172, 218);
+    -webkit-box-shadow: 0 0 3px rgb(133, 172, 218);
+    box-shadow: 0 0 10px rgb(133, 172, 218);
+    border-radius: 15px;
 }
 
 .main-img  img {
@@ -210,12 +132,106 @@ footer > span > img {
     height: 1rem;
 }
 
-@media only screen and (max-width: 450px) {
+
+
+@media only screen and (max-width: 935px) {
+    .nav-img  h3{
+        padding: 20px 10px;
+        font-size: 1.2rem;
+    }
+    .nav-img img {
+        width: 50px;
+        height: 55px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .nav-links .active{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        margin-left: 10px;
+        padding: 10px 15px;
+    }
+    
+}
+
+
+@media (max-width: 740px) {
+    .nav-links {
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+
+        height: 10px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .nav-links > a {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        flex: 1;
+    }
+    footer {
+        visibility: hidden;
+    }
+    
+}
+
+@media only screen and (max-width: 455px) {
     .main-img > img {
         width: 200px;
         height: 200px;
         margin: 20px;
     }
 
+    .main-text h2 {
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    .main-img > img {
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .nav-img  h3{
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+    .nav-img img {
+        width: 30px;
+        height: 35px;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin: 5px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    
+    .nav-links .active{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        margin-left: 10px;
+        background-color: rgb(0, 119, 255);
+    }
     
 }
