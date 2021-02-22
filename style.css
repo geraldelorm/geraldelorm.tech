@@ -132,14 +132,6 @@ color: rgb(0, 119, 255);
     
 }
 
-@media only screen and (max-width: 450px) {
-    .main-img > img {
-        width: 100px;
-        height: 100px;
-    }
-}
-
-
 @media only screen and (max-width: 400px) {
     .nav-img  h3{
         padding: 10px 5px;
@@ -162,6 +154,8 @@ color: rgb(0, 119, 255);
         margin-left: 10px;
         background-color: rgb(0, 119, 255);
     }
+
+
     
 }
 main {
@@ -214,4 +208,17 @@ footer a{
 footer > span > img {
     width: 1rem;
     height: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .main-img > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-text, p {
+        font-size: 0.8rem;
+      
+    }
+    
 }
