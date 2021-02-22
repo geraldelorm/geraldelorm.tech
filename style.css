@@ -123,9 +123,8 @@ color: rgb(0, 119, 255);
         flex: 1;
     }
 
-    .main-img img {
-        width: 100px;
-        height: 100px;
+    .main-img > img {
+        width: 10px;
     }
     footer {
         display: none;
@@ -192,7 +191,7 @@ main {
     margin-top: 1rem;
 }
 .main-text * {
-    margin: 0.5rem;
+    margin: 1rem 0.3rem;
 }
 
 footer {
