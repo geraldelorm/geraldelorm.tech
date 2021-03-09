@@ -1,0 +1,18 @@
+@import url('./home.css');
+
+section#about {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about {
+    text-align: center;
+    align-self: center;
+}
+
+#title-abt {
+    text-align: center;
+    padding: 10px;
+    margin-top: 2rem;
+}

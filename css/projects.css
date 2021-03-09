@@ -1,0 +1,98 @@
+@import url('./home.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+
+ .card img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#projects-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#title-pro{
+    text-align: center;
+    padding: 10px;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: white;
+    padding: 8px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #bacddb;
+    margin: 2rem;
+}
+
+.card-details {
+    padding: 0 10px 5px 10px;
+}
+
+.tag {
+    padding: 4px 8px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.tag.one {
+    background-color: rgb(255, 81, 0);
+}
+
+.tag.two {
+    background-color: rgb(0, 102, 255);
+}
+
+.tag.three {
+    background-color: rgb(255, 174, 0);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-details p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btns button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 0 10px;
+
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+button:focus,
+button:hover {
+    background-color: #0077ff;
+    color: #e0efff;
+} */
