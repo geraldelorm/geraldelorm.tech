@@ -36,3 +36,17 @@ section#about {
 .slist {
     text-align: left;
 }
+
+@media (max-width: 740px) {
+    .about p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    .stack-list img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
