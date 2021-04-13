@@ -100,10 +100,6 @@ main {
     align-content: center;
     align-self: center;
     padding: 1rem;
-    -moz-box-shadow: 0 0 3px rgb(133, 172, 218);
-    -webkit-box-shadow: 0 0 3px rgb(133, 172, 218);
-    box-shadow: 0 0 10px rgb(133, 172, 218);
-    border-radius: 15px;
 }
 
 .main-img img {
