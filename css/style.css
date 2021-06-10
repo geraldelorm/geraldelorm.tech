@@ -24,7 +24,7 @@ body {
   border-radius: 40%;
 }
 .name {
-  font-size: 1.65rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin: 0.7rem 0;
 }
@@ -59,7 +59,7 @@ a:hover {
 .section {
   border-top: 2px solid #3d424d;
   padding-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .section h2 {
   color: #81899c;
